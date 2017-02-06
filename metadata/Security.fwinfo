@@ -2937,7 +2937,9 @@
    "SecKeychainCopyAccess": {
     "args": {
      "0": {}, 
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainCopyDefault": {
@@ -2954,12 +2956,16 @@
    }, 
    "SecKeychainCopyDomainSearchList": {
     "args": {
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainCopySearchList": {
     "args": {
-     "0": {}
+     "0": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainCopySettings": {
@@ -3051,7 +3057,9 @@
    "SecKeychainItemCopyAccess": {
     "args": {
      "0": {}, 
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainItemCopyAttributesAndData": {
@@ -3082,7 +3090,9 @@
    "SecKeychainItemCopyKeychain": {
     "args": {
      "0": {}, 
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainItemCreateCopy": {
