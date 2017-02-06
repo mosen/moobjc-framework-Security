@@ -1,0 +1,3875 @@
+// objective.metadata exceptions file, see its document
+// for information on how to update this file.
+{
+ "definitions": {
+  "classes": {}, 
+  "formal_protocols": {}, 
+  "functions": {
+   "AuthorizationCopyInfo": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "AuthorizationCopyPrivilegedReference": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "AuthorizationCopyRights": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "4": {}
+    }
+   }, 
+   "AuthorizationCopyRightsAsync": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "AuthorizationCreate": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "AuthorizationCreateFromExternalForm": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "AuthorizationExecuteWithPrivileges": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "AuthorizationFree": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "AuthorizationFreeItemSet": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "AuthorizationMakeExternalForm": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "AuthorizationRightGet": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "AuthorizationRightRemove": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "AuthorizationRightSet": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CMSDecoderCopyAllCerts": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderCopyContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderCopyDetachedContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderCopyEncapsulatedContentType": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderCopySignerCert": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CMSDecoderCopySignerEmailAddress": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CMSDecoderCopySignerSigningTime": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CMSDecoderCopySignerStatus": {
+    "args": {
+     "0": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CMSDecoderCopySignerTimestamp": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CMSDecoderCopySignerTimestampCertificates": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CMSDecoderCopySignerTimestampWithPolicy": {
+    "args": {
+     "0": {}, 
+     "3": {}
+    }
+   }, 
+   "CMSDecoderCreate": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSDecoderFinalizeMessage": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSDecoderGetNumSigners": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderIsContentEncrypted": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderSetDetachedContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSDecoderSetSearchKeychain": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSDecoderUpdateMessage": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncode": {
+    "args": {
+     "2": {}, 
+     "5": {}, 
+     "7": {}
+    }
+   }, 
+   "CMSEncodeContent": {
+    "args": {
+     "5": {}, 
+     "7": {}
+    }
+   }, 
+   "CMSEncoderAddRecipients": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderAddSignedAttributes": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderAddSigners": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderAddSupportingCerts": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderCopyEncapsulatedContentType": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderCopyEncodedContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderCopyRecipients": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderCopySignerTimestamp": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CMSEncoderCopySignerTimestampWithPolicy": {
+    "args": {
+     "0": {}, 
+     "3": {}
+    }
+   }, 
+   "CMSEncoderCopySigners": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderCopySupportingCerts": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderCreate": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderGetCertificateChainMode": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderGetHasDetachedContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderSetCertificateChainMode": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderSetEncapsulatedContentType": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderSetEncapsulatedContentTypeOID": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderSetHasDetachedContent": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CMSEncoderSetSignerAlgorithm": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CMSEncoderUpdateContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CSSM_AC_AuthCompute": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "CSSM_AC_PassThrough": {
+    "args": {
+     "4": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "CSSM_CL_CertCache": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CertCreateTemplate": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_CertDescribeFormat": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CertGetAllFields": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_CertGetAllTemplateFields": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_CertGetFirstCachedFieldValue": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_CL_CertGetFirstFieldValue": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_CL_CertGetKeyInfo": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CertGetNextCachedFieldValue": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CertGetNextFieldValue": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CertGroupFromVerifiedBundle": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_CertGroupToSignedBundle": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_CertSign": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_CL_CertVerify": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_CertVerifyWithKey": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CrlAddCert": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_CL_CrlCache": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CrlCreateTemplate": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_CrlDescribeFormat": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CrlGetAllCachedRecordFields": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_CrlGetAllFields": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_CrlGetFirstCachedFieldValue": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_CL_CrlGetFirstFieldValue": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_CL_CrlGetNextCachedFieldValue": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CrlGetNextFieldValue": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_CrlRemoveCert": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_CrlSetFields": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_CrlSign": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_CL_CrlVerify": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_CrlVerifyWithKey": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_FreeFieldValue": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_FreeFields": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CL_IsCertInCachedCrl": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CL_IsCertInCrl": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CL_PassThrough": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CSP_ChangeLoginAcl": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CSP_ChangeLoginOwner": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CSP_CreateAsymmetricContext": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_CSP_CreateDeriveKeyContext": {
+    "args": {
+     "4": {}, 
+     "5": {}, 
+     "7": {}, 
+     "8": {}, 
+     "9": {}
+    }
+   }, 
+   "CSSM_CSP_CreateDigestContext": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_CSP_CreateKeyGenContext": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "CSSM_CSP_CreateMacContext": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CSP_CreatePassThroughContext": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CSP_CreateRandomGenContext": {
+    "args": {
+     "2": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CSP_CreateSignatureContext": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_CSP_CreateSymmetricContext": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "CSSM_CSP_GetLoginAcl": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CSP_GetLoginOwner": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_CSP_GetOperationalStatistics": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_CSP_Login": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_CSP_ObtainPrivateKeyFromPublicKey": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_CSP_PassThrough": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_ChangeKeyAcl": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_ChangeKeyOwner": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_DL_Authenticate": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_DL_ChangeDbAcl": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_DL_ChangeDbOwner": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_DL_CreateRelation": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_DL_DataDelete": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DL_DataGetFirst": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_DL_DataGetFromUniqueRecordId": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_DL_DataGetNext": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_DL_DataInsert": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_DL_DataModify": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_DL_DbCreate": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "CSSM_DL_DbDelete": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_DL_DbOpen": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_DL_FreeNameList": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DL_FreeUniqueRecord": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DL_GetDbAcl": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_DL_GetDbNameFromHandle": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DL_GetDbNames": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DL_GetDbOwner": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DL_PassThrough": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_DecryptData": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_DecryptDataFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DecryptDataP": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_DecryptDataUpdate": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_DeleteContextAttributes": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_DeriveKey": {
+    "args": {
+     "1": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_DigestData": {
+    "args": {
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_DigestDataClone": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DigestDataFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_DigestDataUpdate": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_EncryptData": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_EncryptDataFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_EncryptDataP": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_EncryptDataUpdate": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_FreeContext": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CSSM_FreeKey": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_GenerateAlgorithmParams": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_GenerateKey": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_GenerateKeyP": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_GenerateKeyPair": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "7": {}, 
+     "8": {}, 
+     "9": {}
+    }
+   }, 
+   "CSSM_GenerateKeyPairP": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "7": {}, 
+     "8": {}, 
+     "9": {}
+    }
+   }, 
+   "CSSM_GenerateMac": {
+    "args": {
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_GenerateMacFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GenerateMacUpdate": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GenerateRandom": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GetAPIMemoryFunctions": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GetContext": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GetContextAttribute": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_GetKeyAcl": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_GetKeyOwner": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_GetModuleGUIDFromHandle": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GetPrivilege": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CSSM_GetSubserviceUIDFromHandle": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_GetTimeValue": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_Init": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_Introduce": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CSSM_KR_CreateRecoveryEnablementContext": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_KR_CreateRecoveryRegistrationContext": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_KR_CreateRecoveryRequestContext": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_KR_GenerateRecoveryFields": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_KR_GetPolicyInfo": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_KR_GetRecoveredObject": {
+    "args": {
+     "4": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "CSSM_KR_PassThrough": {
+    "args": {
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_KR_ProcessRecoveryFields": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_KR_QueryPolicyInfo": {
+    "args": {
+     "4": {}
+    }
+   }, 
+   "CSSM_KR_RecoveryRequest": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_KR_RecoveryRetrieve": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_KR_RegistrationRequest": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_KR_RegistrationRetrieve": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_KR_SetEnterpriseRecoveryPolicy": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "CSSM_ListAttachedModuleManagers": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "CSSM_ModuleAttach": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "7": {}, 
+     "9": {}, 
+     "10": {}
+    }
+   }, 
+   "CSSM_ModuleLoad": {
+    "args": {
+     "0": {}, 
+     "2": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^{cssm_guid=ISS[8C]}"
+        }, 
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }, 
+     "3": {}
+    }
+   }, 
+   "CSSM_ModuleUnload": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^{cssm_guid=ISS[8C]}"
+        }, 
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }, 
+     "2": {}
+    }
+   }, 
+   "CSSM_QueryKeySizeInBits": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_QuerySize": {
+    "args": {
+     "3": {}
+    }
+   }, 
+   "CSSM_RetrieveCounter": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_RetrieveUniqueId": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_SPI_ModuleAttach": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "7": {}, 
+     "8": {}, 
+     "9": {}, 
+     "10": {}, 
+     "11": {}
+    }
+   }, 
+   "CSSM_SPI_ModuleLoad": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^{cssm_guid=ISS[8C]}"
+        }, 
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }, 
+     "3": {}
+    }
+   }, 
+   "CSSM_SPI_ModuleUnload": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^{cssm_guid=ISS[8C]}"
+        }, 
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "I"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }, 
+     "3": {}
+    }
+   }, 
+   "CSSM_SetContext": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_SignData": {
+    "args": {
+     "1": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_SignDataFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_SignDataUpdate": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_TP_ApplyCrlToDb": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_TP_CertCreateTemplate": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_TP_CertGetAllTemplateFields": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_TP_CertGroupConstruct": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_TP_CertGroupPrune": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_TP_CertGroupToTupleGroup": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_TP_CertGroupVerify": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_TP_CertReclaimKey": {
+    "args": {
+     "1": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_TP_CertRemoveFromCrlTemplate": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "CSSM_TP_CertRevoke": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}, 
+     "9": {}
+    }
+   }, 
+   "CSSM_TP_CertSign": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "CSSM_TP_ConfirmCredResult": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_TP_CrlCreateTemplate": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_TP_CrlSign": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "CSSM_TP_CrlVerify": {
+    "args": {
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_TP_FormRequest": {
+    "args": {
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_TP_FormSubmit": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_TP_PassThrough": {
+    "args": {
+     "3": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_TP_ReceiveConfirmation": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_TP_RetrieveCredResult": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "CSSM_TP_SubmitCredRequest": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "CSSM_TP_TupleGroupToCertGroup": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_Unintroduce": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "CSSM_UnwrapKey": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "CSSM_UnwrapKeyP": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}, 
+     "8": {}
+    }
+   }, 
+   "CSSM_UpdateContextAttributes": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "CSSM_VerifyData": {
+    "args": {
+     "1": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_VerifyDataFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_VerifyDataUpdate": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_VerifyDevice": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_VerifyMac": {
+    "args": {
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "CSSM_VerifyMacFinal": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_VerifyMacUpdate": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "CSSM_WrapKey": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "CSSM_WrapKeyP": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "MDS_Initialize": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "ModuleManagerAuthenticate": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SSLAddDistinguishedName": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLClose": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLCopyCertificateAuthorities": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLCopyDistinguishedNames": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLCopyPeerCertificates": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLCopyPeerTrust": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLCopyRequestedPeerName": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLCopyRequestedPeerNameLength": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLCopyTrustedRoots": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLCreateContext": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SSLDisposeContext": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLGetAllowsAnyRoot": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetAllowsExpiredCerts": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetAllowsExpiredRoots": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetBufferedReadSize": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetClientCertificateState": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetConnection": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetDatagramWriteSize": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetDiffieHellmanParams": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLGetEnableCertVerify": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetEnabledCiphers": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLGetMaxDatagramRecordSize": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetNegotiatedCipher": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetNegotiatedProtocolVersion": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetNumberEnabledCiphers": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetNumberSupportedCiphers": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetPeerDomainName": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLGetPeerDomainNameLength": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetPeerID": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLGetProtocolVersion": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetProtocolVersionEnabled": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLGetProtocolVersionMax": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetProtocolVersionMin": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetRsaBlinding": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetSessionOption": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLGetSessionState": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLGetSupportedCiphers": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SSLHandshake": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLNewContext": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SSLReHandshake": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLRead": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "SSLSetAllowsAnyRoot": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetAllowsExpiredCerts": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetAllowsExpiredRoots": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetCertificate": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetCertificateAuthorities": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetClientSideAuthenticate": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetConnection": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetDatagramHelloCookie": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetDiffieHellmanParams": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetEnableCertVerify": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetEnabledCiphers": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetEncryptionCertificate": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetIOFuncs": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "^Q"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }, 
+     "2": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "^v"
+        }, 
+        {
+         "typestr": "^Q"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }
+    }
+   }, 
+   "SSLSetMaxDatagramRecordSize": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetPeerDomainName": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetPeerID": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetProtocolVersion": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetProtocolVersionEnabled": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetProtocolVersionMax": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetProtocolVersionMin": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetRsaBlinding": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetSessionConfig": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLSetSessionOption": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SSLSetTrustedRoots": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SSLWrite": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "SecACLCopyAuthorizations": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecACLCopyContents": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecACLCopySimpleContents": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecACLCreateFromSimpleContents": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "SecACLCreateWithSimpleContents": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "4": {}
+    }
+   }, 
+   "SecACLGetAuthorizations": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecACLRemove": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecACLSetAuthorizations": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecACLSetContents": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecACLSetSimpleContents": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecACLUpdateAuthorizations": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecAccessControlCreateWithFlags": {
+    "args": {
+     "0": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecAccessCopyACLList": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecAccessCopyMatchingACLList": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecAccessCopyOwnerAndACL": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "SecAccessCopySelectedACLList": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecAccessCreate": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecAccessCreateFromOwnerAndACL": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecAccessCreateWithOwnerAndACL": {
+    "args": {
+     "3": {}, 
+     "4": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecAccessGetOwnerAndACL": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecCertificateAddToKeychain": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateCopyCommonName": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateCopyData": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyEmailAddresses": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateCopyLongDescription": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyNormalizedIssuerContent": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyNormalizedSubjectContent": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyPreference": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCertificateCopyPreferred": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyPublicKey": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateCopySerialNumber": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyShortDescription": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopySubjectSummary": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCopyValues": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateCreateFromData": {
+    "args": {
+     "0": {}, 
+     "3": {}
+    }
+   }, 
+   "SecCertificateCreateWithData": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecCertificateGetAlgorithmID": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateGetCLHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateGetData": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateGetIssuer": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateGetSubject": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateGetType": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecCertificateSetPreference": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "SecCertificateSetPreferred": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeCheckValidity": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeCheckValidityWithErrors": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecCodeCopyDesignatedRequirement": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeCopyGuestWithAttributes": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "SecCodeCopyHost": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeCopyPath": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeCopySelf": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecCodeCopySigningInformation": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeCopyStaticCode": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecCodeMapMemory": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecCopyErrorMessageString": {
+    "args": {
+     "1": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecDecodeTransformCreate": {
+    "args": {
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecDecryptTransformCreate": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecDecryptTransformGetTypeID": {
+    "variadic": true
+   }, 
+   "SecDigestTransformCreate": {
+    "args": {
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecDigestTransformGetTypeID": {
+    "variadic": true
+   }, 
+   "SecEncodeTransformCreate": {
+    "args": {
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecEncryptTransformCreate": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecEncryptTransformGetTypeID": {
+    "variadic": true
+   }, 
+   "SecHostCreateGuest": {
+    "args": {
+     "2": {}, 
+     "3": {}, 
+     "5": {}
+    }
+   }, 
+   "SecHostSelectedGuest": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecHostSetGuestStatus": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "SecIdentityCopyCertificate": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecIdentityCopyPreference": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecIdentityCopyPreferred": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecIdentityCopyPrivateKey": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecIdentityCopySystemIdentity": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecIdentityCreateWithCertificate": {
+    "args": {
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecIdentitySearchCopyNext": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecIdentitySearchCreate": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "SecIdentitySetPreference": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecIdentitySetPreferred": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecIdentitySetSystemIdentity": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecItemAdd": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecItemCopyMatching": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecItemDelete": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecItemExport": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "SecItemImport": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "SecItemUpdate": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeyCopyAttributes": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCopyExternalRepresentation": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCopyKeyExchangeResult": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCopyPublicKey": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCreateDecryptedData": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCreateEncryptedData": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCreateFromData": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCreatePair": {
+    "args": {
+     "0": {}, 
+     "8": {}, 
+     "9": {}, 
+     "10": {}
+    }
+   }, 
+   "SecKeyCreateRandomKey": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCreateSignature": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyCreateWithData": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecKeyDeriveFromPassword": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {}
+   }, 
+   "SecKeyGenerate": {
+    "args": {
+     "0": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "SecKeyGeneratePair": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecKeyGeneratePairAsync": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeyGenerateSymmetric": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {}
+   }, 
+   "SecKeyGetBlockSize": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeyGetCSPHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeyGetCSSMKey": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeyGetCredentials": {
+    "args": {
+     "0": {}, 
+     "3": {}
+    }
+   }, 
+   "SecKeyIsAlgorithmSupported": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecKeyUnwrapSymmetric": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {}
+   }, 
+   "SecKeyVerifySignature": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecKeyWrapSymmetric": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {}
+   }, 
+   "SecKeychainAddCallback": {
+    "args": {
+     "0": {
+      "function": {
+       "args": [
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "^{SecKeychainCallbackInfo=I^{OpaqueSecKeychainItemRef=}^{OpaqueSecKeychainRef=}i}"
+        }, 
+        {
+         "typestr": "^v"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }, 
+     "2": {}
+    }
+   }, 
+   "SecKeychainAddGenericPassword": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "4": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "SecKeychainAddInternetPassword": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "4": {}, 
+     "6": {}, 
+     "8": {}, 
+     "13": {}, 
+     "14": {}
+    }
+   }, 
+   "SecKeychainAttributeInfoForItemID": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecKeychainCopyAccess": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainCopyDefault": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainCopyDomainDefault": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecKeychainCopyDomainSearchList": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecKeychainCopySearchList": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainCopySettings": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainCreate": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "SecKeychainDelete": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainFindGenericPassword": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "SecKeychainFindInternetPassword": {
+    "args": {
+     "2": {}, 
+     "4": {}, 
+     "6": {}, 
+     "8": {}, 
+     "12": {}, 
+     "13": {}, 
+     "14": {}
+    }
+   }, 
+   "SecKeychainFreeAttributeInfo": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainGetCSPHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainGetDLDBHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainGetPath": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecKeychainGetPreferenceDomain": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainGetStatus": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainGetUserInteractionAllowed": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainGetVersion": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainItemCopyAccess": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemCopyAttributesAndData": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}
+    }
+   }, 
+   "SecKeychainItemCopyContent": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "SecKeychainItemCopyFromPersistentReference": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemCopyKeychain": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemCreateCopy": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecKeychainItemCreateFromContent": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "4": {}, 
+     "5": {}, 
+     "6": {}
+    }
+   }, 
+   "SecKeychainItemCreatePersistentReference": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemDelete": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainItemExport": {
+    "args": {
+     "3": {}, 
+     "4": {}
+    }
+   }, 
+   "SecKeychainItemFreeAttributesAndData": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemFreeContent": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemGetDLDBHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemGetUniqueRecordID": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainItemImport": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}, 
+     "5": {}, 
+     "6": {}, 
+     "7": {}
+    }
+   }, 
+   "SecKeychainItemModifyAttributesAndData": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "SecKeychainItemModifyContent": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "3": {}
+    }
+   }, 
+   "SecKeychainItemSetAccess": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainLock": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainOpen": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainRemoveCallback": {
+    "args": {
+     "0": {
+      "function": {
+       "args": [
+        {
+         "typestr": "I"
+        }, 
+        {
+         "typestr": "^{SecKeychainCallbackInfo=I^{OpaqueSecKeychainItemRef=}^{OpaqueSecKeychainRef=}i}"
+        }, 
+        {
+         "typestr": "^v"
+        }
+       ], 
+       "retval": {
+        "typestr": "i"
+       }
+      }
+     }
+    }
+   }, 
+   "SecKeychainSearchCopyNext": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainSearchCreateFromAttributes": {
+    "args": {
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecKeychainSetAccess": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainSetDefault": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainSetDomainDefault": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecKeychainSetDomainSearchList": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecKeychainSetSearchList": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecKeychainSetSettings": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecKeychainUnlock": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecPKCS12Import": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}
+    }
+   }, 
+   "SecPolicyCopyProperties": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecPolicyCreateBasicX509": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecPolicyCreateRevocation": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecPolicyCreateSSL": {
+    "args": {
+     "1": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecPolicyCreateWithOID": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecPolicyCreateWithProperties": {
+    "args": {
+     "1": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecPolicyGetOID": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecPolicyGetTPHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecPolicyGetValue": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecPolicySearchCopyNext": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecPolicySearchCreate": {
+    "args": {
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecPolicySetProperties": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecPolicySetValue": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecRandomCopyBytes": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecRequirementCopyData": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecRequirementCopyString": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecRequirementCreateWithData": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecRequirementCreateWithString": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecRequirementCreateWithStringAndErrors": {
+    "args": {
+     "0": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }, 
+     "3": {}
+    }
+   }, 
+   "SecSignTransformCreate": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecStaticCodeCheckValidity": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecStaticCodeCheckValidityWithErrors": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecStaticCodeCreateWithPath": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecStaticCodeCreateWithPathAndAttributes": {
+    "args": {
+     "0": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecTaskCopySigningIdentifier": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTaskCopyValueForEntitlement": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTaskCopyValuesForEntitlements": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTaskCreateFromSelf": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTaskCreateWithAuditToken": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTranformCustomGetAttribute": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTransformConnectTransforms": {
+    "args": {
+     "1": {}, 
+     "3": {}, 
+     "5": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTransformCopyExternalRepresentation": {
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTransformCreate": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTransformCreateFromExternalRepresentation": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTransformCreateReadTransformWithReadStream": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTransformCustomGetAttribute": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTransformCustomSetAttribute": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTransformExecute": {
+    "args": {
+     "1": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTransformFindByName": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecTransformGetAttribute": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecTransformPushbackAttribute": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTransformRegister": {
+    "args": {
+     "0": {}, 
+     "1": {
+      "function": {
+       "args": [
+        {
+         "typestr": "^{__CFString=}"
+        }, 
+        {
+         "typestr": "@"
+        }, 
+        {
+         "typestr": "^{OpaqueSecTransformImplementation=}"
+        }
+       ], 
+       "retval": {
+        "typestr": "@?"
+       }
+      }
+     }, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTransformSetAttribute": {
+    "args": {
+     "1": {}, 
+     "3": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "SecTransformSetAttributeAction": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }, 
+    "retval": {}
+   }, 
+   "SecTransformSetDataAction": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }, 
+    "retval": {}
+   }, 
+   "SecTransformSetTransformAction": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }, 
+    "retval": {}
+   }, 
+   "SecTrustCopyAnchorCertificates": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustCopyCustomAnchorCertificates": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustCopyExceptions": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTrustCopyPolicies": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustCopyProperties": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTrustCopyPublicKey": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTrustCopyResult": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {
+     "already_cfretained": true
+    }
+   }, 
+   "SecTrustCreateWithCertificates": {
+    "args": {
+     "2": {}
+    }
+   }, 
+   "SecTrustEvaluate": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustEvaluateAsync": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustGetCertificateAtIndex": {
+    "args": {
+     "0": {}
+    }, 
+    "retval": {}
+   }, 
+   "SecTrustGetCertificateCount": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustGetCssmResult": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustGetCssmResultCode": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustGetNetworkFetchAllowed": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustGetResult": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {}, 
+     "3": {}
+    }
+   }, 
+   "SecTrustGetTPHandle": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustGetTrustResult": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustGetVerifyTime": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetAnchorCertificates": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustSetAnchorCertificatesOnly": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetExceptions": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustSetKeychains": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetNetworkFetchAllowed": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetOCSPResponse": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetOptions": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetParameters": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecTrustSetPolicies": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSetVerifyDate": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustSettingsCopyCertificates": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecTrustSettingsCopyModificationDate": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecTrustSettingsCopyTrustSettings": {
+    "args": {
+     "0": {}, 
+     "2": {}
+    }
+   }, 
+   "SecTrustSettingsCreateExternalRepresentation": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecTrustSettingsImportExternalRepresentation": {
+    "args": {
+     "1": {}
+    }
+   }, 
+   "SecTrustSettingsRemoveTrustSettings": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustSettingsSetTrustSettings": {
+    "args": {
+     "0": {}
+    }
+   }, 
+   "SecTrustedApplicationCopyData": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustedApplicationCreateFromPath": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecTrustedApplicationSetData": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "SecVerifyTransformCreate": {
+    "args": {
+     "0": {}, 
+     "1": {}, 
+     "2": {
+      "already_cfretained": true, 
+      "null_accepted": true, 
+      "type_modifier": "o"
+     }
+    }
+   }, 
+   "cssmAlgToOid": {
+    "retval": {}
+   }, 
+   "cssmOidToAlg": {
+    "args": {
+     "0": {}, 
+     "1": {}
+    }
+   }, 
+   "cssmPerror": {
+    "args": {
+     "0": {}
+    }
+   }
+  }, 
+  "informal_protocols": {}
+ }
+}
