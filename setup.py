@@ -8,15 +8,15 @@ and (Objective-)C frameworks
 '''
 from pyobjc_setup import setup
 
-VERSION="0.1"
+VERSION = "0.1"
 
 setup(
     name='pqobjc-framework-Security',
-    description = "Wrappers for the framework Security on Mac OS X",
+    description="Wrappers for the framework Security on Mac OS X",
     min_os_level='10.12',
-    packages = [ "Security" ],
+    packages=["Security"],
     version=VERSION,
-    install_requires = [
+    install_requires=[
         'pyobjc-core',
         'pyobjc-framework-Cocoa'
     ],
