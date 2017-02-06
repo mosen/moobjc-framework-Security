@@ -2605,7 +2605,9 @@
    "SecItemCopyMatching": {
     "args": {
      "0": {}, 
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecItemDelete": {
@@ -2981,7 +2983,9 @@
      "0": {}, 
      "2": {}, 
      "4": {}, 
-     "5": {}
+     "5": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainDelete": {
@@ -3029,8 +3033,13 @@
    "SecKeychainGetPath": {
     "args": {
      "0": {}, 
-     "1": {}, 
-     "2": {}
+     "1": {
+        "type_modifier": "N"
+     },
+     "2": {
+        "type_override": "N^t",
+        "c_array_of_variable_length": true
+     }
     }
    }, 
    "SecKeychainGetPreferenceDomain": {
@@ -3041,7 +3050,9 @@
    "SecKeychainGetStatus": {
     "args": {
      "0": {}, 
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainGetUserInteractionAllowed": {
@@ -3051,7 +3062,9 @@
    }, 
    "SecKeychainGetVersion": {
     "args": {
-     "0": {}
+     "0": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainItemCopyAccess": {
