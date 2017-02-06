@@ -2942,7 +2942,9 @@
    }, 
    "SecKeychainCopyDefault": {
     "args": {
-     "0": {}
+     "0": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainCopyDomainDefault": {
@@ -2963,7 +2965,9 @@
    "SecKeychainCopySettings": {
     "args": {
      "0": {}, 
-     "1": {}
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainCreate": {
@@ -3177,8 +3181,12 @@
    }, 
    "SecKeychainOpen": {
     "args": {
-     "0": {}, 
-     "1": {}
+     "0": {
+        "type_override": "*"
+     },
+     "1": {
+        "type_modifier": "o"
+     }
     }
    }, 
    "SecKeychainRemoveCallback": {
