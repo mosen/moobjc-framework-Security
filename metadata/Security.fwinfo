@@ -3901,6 +3901,15 @@
     }
    }
   }, 
-  "informal_protocols": {}
- }
+  "informal_protocols": {},
+  "cftypes": {
+    "SecCertificateRef": {
+      "gettypeid_func": "SecCertificateGetTypeID",
+      "typestr": "{__OpaqueSecCertificateRef=}"
+    },
+    "SecIdentityRef": {
+      "gettypeid_func": "SecIdentityGetTypeID",
+      "typestr": "{__OpaqueSecIdentityRef=}"
+    }
+  }
 }
