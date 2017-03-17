@@ -3955,6 +3955,19 @@
     },
     "SecTrustedApplicationRef": {
         "gettypeid_func": "SecTrustedApplicationGetTypeID"
+    },
+    "SecPasswordRef": {
+        "gettypeid_func": "SecKeychainItemGetTypeID"
+    },
+    "SecRandomRef": {
+        "gettypeid_func": "SecKeychainItemGetTypeID"
+    },
+    "SecRequirementRef": {
+        "gettypeid_func": "SecRequirementGetTypeID"
+    },
+    "SecTransformImplementationRef": {
+        "gettypeid_func": "SecTransformGetTypeID"
     }
+  }
 }
 }
