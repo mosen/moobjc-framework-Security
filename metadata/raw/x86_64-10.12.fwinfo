@@ -133,10 +133,7 @@
    "SecKeychainSearchRef": {
     "gettypeid_func": "SecKeychainSearchGetTypeID", 
     "typestr": "^{OpaqueSecKeychainSearchRef=}"
-   }, 
-   "SecPasswordRef": {
-    "typestr": "^{OpaqueSecPasswordRef=}"
-   }, 
+   },
    "SecPolicyRef": {
     "gettypeid_func": "SecPolicyGetTypeID", 
     "typestr": "^{OpaqueSecPolicyRef=}"
@@ -144,10 +141,7 @@
    "SecPolicySearchRef": {
     "gettypeid_func": "SecPolicySearchGetTypeID", 
     "typestr": "^{OpaquePolicySearchRef=}"
-   }, 
-   "SecRandomRef": {
-    "typestr": "^{__SecRandom=}"
-   }, 
+   },
    "SecRequirementRef": {
     "gettypeid_func": "SecRequirementGetTypeID", 
     "typestr": "^{__SecRequirement=}"
@@ -159,10 +153,7 @@
    "SecTaskRef": {
     "gettypeid_func": "SecTaskGetTypeID", 
     "typestr": "^{__SecTask=}"
-   }, 
-   "SecTransformImplementationRef": {
-    "typestr": "^{OpaqueSecTransformImplementation=}"
-   }, 
+   },
    "SecTrustRef": {
     "gettypeid_func": "SecTrustGetTypeID", 
     "typestr": "^{__SecTrust=}"
@@ -6022,10 +6013,7 @@
    }, 
    "kSecPublicKeyAttrs": {
     "typestr": "^{__CFString=}"
-   }, 
-   "kSecRandomDefault": {
-    "typestr": "^{__SecRandom=}"
-   }, 
+   },
    "kSecReturnAttributes": {
     "typestr": "^{__CFString=}"
    }, 
@@ -17179,27 +17167,7 @@
     "retval": {
      "typestr": "i"
     }
-   }, 
-   "SecRandomCopyBytes": {
-    "args": [
-     {
-      "name": "rnd", 
-      "typestr": "^{__SecRandom=}"
-     }, 
-     {
-      "name": "count", 
-      "typestr": "Q"
-     }, 
-     {
-      "name": "bytes", 
-      "typestr": "^C"
-     }
-    ], 
-    "retval": {
-     "already_cfretained": true, 
-     "typestr": "i"
-    }
-   }, 
+   },
    "SecRequirementCopyData": {
     "args": [
      {
@@ -17540,26 +17508,7 @@
     "retval": {
      "typestr": "Q"
     }
-   }, 
-   "SecTranformCustomGetAttribute": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "attribute", 
-      "typestr": "@"
-     }, 
-     {
-      "name": "type", 
-      "typestr": "q"
-     }
-    ], 
-    "retval": {
-     "typestr": "@"
-    }
-   }, 
+   },
    "SecTransformConnectTransforms": {
     "args": [
      {
@@ -17667,49 +17616,7 @@
      "already_cfretained": true, 
      "typestr": "@"
     }
-   }, 
-   "SecTransformCustomGetAttribute": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "attribute", 
-      "typestr": "@"
-     }, 
-     {
-      "name": "type", 
-      "typestr": "q"
-     }
-    ], 
-    "retval": {
-     "typestr": "@"
-    }
-   }, 
-   "SecTransformCustomSetAttribute": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "attribute", 
-      "typestr": "@"
-     }, 
-     {
-      "name": "type", 
-      "typestr": "q"
-     }, 
-     {
-      "name": "value", 
-      "typestr": "@"
-     }
-    ], 
-    "retval": {
-     "typestr": "@"
-    }
-   }, 
+   },
    "SecTransformExecute": {
     "args": [
      {
@@ -17798,64 +17705,7 @@
     "retval": {
      "typestr": "@"
     }
-   }, 
-   "SecTransformPushbackAttribute": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "attribute", 
-      "typestr": "@"
-     }, 
-     {
-      "name": "value", 
-      "typestr": "@"
-     }
-    ], 
-    "retval": {
-     "typestr": "@"
-    }
-   }, 
-   "SecTransformRegister": {
-    "args": [
-     {
-      "name": "uniqueName", 
-      "typestr": "^{__CFString=}"
-     }, 
-     {
-      "function": {
-       "args": [
-        {
-         "typestr": "^{__CFString=}"
-        }, 
-        {
-         "typestr": "@"
-        }, 
-        {
-         "typestr": "^{OpaqueSecTransformImplementation=}"
-        }
-       ], 
-       "retval": {
-        "typestr": "@?"
-       }
-      }, 
-      "name": "createTransformFunction", 
-      "typestr": "^?"
-     }, 
-     {
-      "already_cfretained": true, 
-      "name": "error", 
-      "null_accepted": true, 
-      "type_modifier": "o", 
-      "typestr": "^^{__CFError=}"
-     }
-    ], 
-    "retval": {
-     "typestr": "Z"
-    }
-   }, 
+   },
    "SecTransformSetAttribute": {
     "args": [
      {
@@ -17881,68 +17731,7 @@
     "retval": {
      "typestr": "Z"
     }
-   }, 
-   "SecTransformSetAttributeAction": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "action", 
-      "typestr": "^{__CFString=}"
-     }, 
-     {
-      "name": "attribute", 
-      "typestr": "@"
-     }, 
-     {
-      "name": "newAction", 
-      "typestr": "@?"
-     }
-    ], 
-    "retval": {
-     "typestr": "^{__CFError=}"
-    }
-   }, 
-   "SecTransformSetDataAction": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "action", 
-      "typestr": "^{__CFString=}"
-     }, 
-     {
-      "name": "newAction", 
-      "typestr": "@?"
-     }
-    ], 
-    "retval": {
-     "typestr": "^{__CFError=}"
-    }
-   }, 
-   "SecTransformSetTransformAction": {
-    "args": [
-     {
-      "name": "ref", 
-      "typestr": "^{OpaqueSecTransformImplementation=}"
-     }, 
-     {
-      "name": "action", 
-      "typestr": "^{__CFString=}"
-     }, 
-     {
-      "name": "newAction", 
-      "typestr": "@?"
-     }
-    ], 
-    "retval": {
-     "typestr": "^{__CFError=}"
-    }
-   }, 
+   },
    "SecTrustCopyAnchorCertificates": {
     "args": [
      {
