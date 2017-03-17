@@ -2980,7 +2980,9 @@
    }, 
    "SecKeychainCreate": {
     "args": {
-     "0": {}, 
+     "0": {
+        "typestr": "*"
+     },
      "2": {}, 
      "4": {}, 
      "5": {
@@ -3901,6 +3903,67 @@
     }
    }
   }, 
-  "informal_protocols": {}
+  "informal_protocols": {},
+  "cftypes": {
+    "SecACLRef": {
+        "gettypeid_func": ""
+    },
+    "SecAccessControlRef": {
+
+    },
+    "SecAccessRef": {
+
+    },
+    "SecCertificateRef": {
+
+    },
+    "SecCodeRef": {
+
+    },
+    "SecIdentityRef": {
+
+    },
+    "SecIdentitySearchRef": {
+
+    },
+    "SecKeyRef": {
+
+    },
+    "SecKeychainItemRef": {
+
+    },
+    "SecKeychainRef": {
+
+    },
+    "SecKeychainSearchRef": {
+
+    },
+    "SecPasswordRef": {
+
+    },
+    "SecPolicyRef": {
+
+    },
+    "SecPolicySearchRef": {
+
+    },
+    "SecRandomRef": {
+
+    },
+    "SecRequirementRef": {
+
+    },
+    "SecStaticCodeRef": {
+
+    },
+    "SecTaskRef": {
+
+    },
+    "SecTrustRef": {
+
+    },
+    "SecTrustedApplicationRef": {
+
+    }
 }
 }
