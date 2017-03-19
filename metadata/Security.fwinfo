@@ -2981,16 +2981,15 @@
    "SecKeychainCreate": {
     "args": {
      "0": {
-        "typestr": "*"
+        "type_override": "*"
      },
-     "1": {
-
-     },
+     "1": {},
      "2": {
-        "typestr": "*",
-        "c_array_length_in_arg": "1"
+        "typestr": "^^T",
+        "c_array_length_in_arg": 1
      },
-     "4": {},
+     "4": {
+     },
      "5": {
         "type_modifier": "o"
      }

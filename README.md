@@ -1,2 +1,5 @@
-# pudquick-pyobjc-framework-Security
-Security framework generated wrapper
+# moobjc-framework-Security
+
+PyObjC wrapper for the Security framework.
+
+
